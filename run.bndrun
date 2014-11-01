@@ -30,9 +30,6 @@
 	com.orientechnologies.orientdb-client,\
 	com.sun.mail.javax.mail,\
 	osgi.cmpn,\
-	jackson-core-asl,\
-	jackson-jaxrs,\
-	jackson-mapper-asl,\
 	javax.annotation-api,\
 	javax.validation.api,\
 	ch.qos.logback.core,\
@@ -41,30 +38,39 @@
 	com.fasterxml.jackson.core.jackson-annotations,\
 	com.fasterxml.jackson.core.jackson-core,\
 	com.fasterxml.jackson.core.jackson-databind,\
+	com.fasterxml.jackson.jaxrs.jackson-jaxrs-base,\
+	com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider,\
 	org.amdatu.web.resourcehandler,\
 	org.amdatu.web.resource,\
 	org.amdatu.web.httpcontext,\
 	org.amdatu.web.rest.jaxrs,\
 	org.amdatu.web.rest.wink,\
+	org.apache.shiro.core,\
+	org.apache.shiro.web,\
+	org.apache.shiro.aspectj,\
+	org.apache.servicemix.bundles.aspectj,\
 	org.greenscape.greendb;version=latest,\
 	org.greenscape.persistence;version=latest,\
 	org.greenscape.persistence.impl;version=latest,\
 	org.greenscape.greendb.persistence;version=latest,\
 	org.greenscape.web.common.ui;version=latest,\
-	org.greenscape.site;version=latest,\
-	org.greenscape.organization;version=latest,\
 	org.greenscape.core;version=latest,\
+	org.greenscape.core.impl;version=latest,\
 	org.greenscape.web.rest;version=latest,\
 	org.greenscape.web.common;version=latest,\
 	org.greenscape.web.site;version=latest,\
 	org.greenscape.site.service;version=latest,\
 	org.greenscape.site.service.impl;version=latest,\
-	org.greenscape.portal.setup;version=latest,\
 	org.greenscape.site.rest;version=latest,\
 	org.greenscape.weblet.webcontent;version=latest,\
 	org.greenscape.weblet.webcontent.ui;version=latest,\
 	org.greenscape.useradmin;version=latest,\
-	org.greenscape.weblet.journal;version=latest
+	org.greenscape.weblet.journal;version=latest,\
+	org.greenscape.web.controlpanel.ui;version=latest,\
+	org.greenscape.weblet.login;version=latest,\
+	org.greenscape.weblet.login.ui;version=latest,\
+	org.greenscape.security;version=latest,\
+	org.greenscape.portal.setup;version=latest
 
 -runrequires: osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)'
