@@ -23,6 +23,11 @@
 	org.apache.felix.fileinstall,\
 	org.apache.felix.configadmin,\
 	org.apache.felix.scr,\
+	org.apache.felix.webconsole.plugins.ds,\
+	org.apache.felix.webconsole.plugins.event,\
+	org.apache.felix.webconsole.plugins.memoryusage,\
+	org.apache.felix.webconsole.plugins.obr,\
+	org.apache.felix.webconsole.plugins.packageadmin,\
 	com.orientechnologies.orientdb-enterprise,\
 	com.orientechnologies.orientdb-server,\
 	com.orientechnologies.orient-commons,\
@@ -70,7 +75,19 @@
 	org.greenscape.weblet.login;version=latest,\
 	org.greenscape.weblet.login.ui;version=latest,\
 	org.greenscape.security;version=latest,\
-	org.greenscape.portal.setup;version=latest
+	org.greenscape.portal.setup;version=latest,\
+	org.apache.oltu.oauth2.authzserver,\
+	org.apache.oltu.oauth2.common,\
+	org.apache.oltu.oauth2.resourceserver,\
+	org.apache.oltu.oauth2.dynamicreg.common,\
+	org.apache.oltu.oauth2.client,\
+	org.apache.oltu.oauth2.dynamicreg.client,\
+	org.apache.oltu.oauth2.dynamicreg.server,\
+	org.apache.oltu.oauth2.httpclient4,\
+	org.apache.httpcomponents.httpcore,\
+	org.apache.httpcomponents.httpclient,\
+	com.springsource.org.apache.commons.logging,\
+	org.apache.commons.codec
 
 -runrequires: osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)'
