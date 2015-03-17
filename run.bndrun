@@ -69,7 +69,6 @@
 	org.greenscape.site.rest;version=latest,\
 	org.greenscape.weblet.webcontent;version=latest,\
 	org.greenscape.weblet.webcontent.ui;version=latest,\
-	org.greenscape.useradmin;version=latest,\
 	org.greenscape.weblet.journal;version=latest,\
 	org.greenscape.web.controlpanel.ui;version=latest,\
 	org.greenscape.weblet.login;version=latest,\
